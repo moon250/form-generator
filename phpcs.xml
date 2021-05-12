@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<ruleset name="form-generator">
+    <description>Règles de formattage</description>
+
+    <arg value="p"/>
+    <arg name="colors"/>
+
+    <file>src/</file>
+    <file>tests/</file>
+
+    <rule ref="PSR2">
+    </rule>
+</ruleset>

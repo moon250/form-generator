@@ -1,0 +1,29 @@
+{
+    "name": "moon250/form-generator",
+    "description": "A new version of moon250/form-generator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FormGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FormGeneratorTests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^0.12.84",
+        "symfony/var-dumper": "^5.2",
+        "spatie/phpunit-watcher": "^1.23",
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "squizlabs/php_codesniffer": "^3.6",
+        "php-coveralls/php-coveralls": "^2.4"
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
